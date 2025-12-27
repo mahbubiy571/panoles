@@ -1,4 +1,4 @@
-const exteriorURL = "assets/exterior.png";
+const exteriorURL = "assets/exterior.jpg";
 const interiorURL = "assets/interior.png";
 
 const panoramaExterior = new PANOLENS.ImagePanorama(exteriorURL);
