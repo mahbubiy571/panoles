@@ -13,7 +13,7 @@ const viewer = new PANOLENS.Viewer({
 
 const spotEnter = new PANOLENS.Infospot(500, PANOLENS.DataImage.Arrow);
 
-spotEnter.position.set(4000, -500, -1500);
+spotEnter.position.set(4000, 100, -1500);
 spotEnter.addHoverText("Enter House");
 
 spotEnter.addEventListener("click", function () {
