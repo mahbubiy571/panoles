@@ -1,5 +1,5 @@
 const exteriorURL = "assets/exterior.jpg";
-const interiorURL = "assets/interior.png";
+const interiorURL = "assets/interior.jpg";
 
 const panoramaExterior = new PANOLENS.ImagePanorama(exteriorURL);
 const panoramaInterior = new PANOLENS.ImagePanorama(interiorURL);
@@ -24,7 +24,7 @@ panoramaExterior.add(spotEnter);
 
 const spotExit = new PANOLENS.Infospot(500, PANOLENS.DataImage.Arrow);
 
-spotExit.position.set(4000, 0, 500);
+spotExit.position.set(4000, 0, -1000);
 spotExit.addHoverText("Go Outside");
 
 spotExit.addEventListener("click", function () {
